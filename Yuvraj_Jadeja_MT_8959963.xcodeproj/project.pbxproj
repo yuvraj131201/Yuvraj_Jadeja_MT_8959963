@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		CD0394D42B9EADC700309682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394D32B9EADC700309682 /* AppDelegate.swift */; };
 		CD0394D62B9EADC700309682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394D52B9EADC700309682 /* SceneDelegate.swift */; };
-		CD0394D82B9EADC700309682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394D72B9EADC700309682 /* ViewController.swift */; };
 		CD0394DB2B9EADC700309682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0394D92B9EADC700309682 /* Main.storyboard */; };
 		CD0394DD2B9EADC800309682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0394DC2B9EADC800309682 /* Assets.xcassets */; };
 		CD0394E02B9EADC800309682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0394DE2B9EADC800309682 /* LaunchScreen.storyboard */; };
+		CD0394E82B9EAE3700309682 /* CanadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394E72B9EAE3700309682 /* CanadaViewController.swift */; };
+		CD0394EA2B9EAE8C00309682 /* QuadraticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394E92B9EAE8C00309682 /* QuadraticViewController.swift */; };
+		CD0394EC2B9EAEBE00309682 /* Lab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394EB2B9EAEBE00309682 /* Lab2ViewController.swift */; };
+		CD0394EE2B9EAEDF00309682 /* Lab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0394ED2B9EAEDF00309682 /* Lab3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD0394D02B9EADC700309682 /* Yuvraj_Jadeja_MT_8959963.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yuvraj_Jadeja_MT_8959963.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0394D32B9EADC700309682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD0394D52B9EADC700309682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD0394D72B9EADC700309682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD0394DA2B9EADC700309682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD0394DC2B9EADC800309682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD0394DF2B9EADC800309682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD0394E12B9EADC800309682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0394E72B9EAE3700309682 /* CanadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaViewController.swift; sourceTree = "<group>"; };
+		CD0394E92B9EAE8C00309682 /* QuadraticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticViewController.swift; sourceTree = "<group>"; };
+		CD0394EB2B9EAEBE00309682 /* Lab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2ViewController.swift; sourceTree = "<group>"; };
+		CD0394ED2B9EAEDF00309682 /* Lab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		CD0394D22B9EADC700309682 /* Yuvraj_Jadeja_MT_8959963 */ = {
 			isa = PBXGroup;
 			children = (
+				CD0394E72B9EAE3700309682 /* CanadaViewController.swift */,
+				CD0394E92B9EAE8C00309682 /* QuadraticViewController.swift */,
+				CD0394EB2B9EAEBE00309682 /* Lab2ViewController.swift */,
+				CD0394ED2B9EAEDF00309682 /* Lab3ViewController.swift */,
 				CD0394D32B9EADC700309682 /* AppDelegate.swift */,
 				CD0394D52B9EADC700309682 /* SceneDelegate.swift */,
-				CD0394D72B9EADC700309682 /* ViewController.swift */,
 				CD0394D92B9EADC700309682 /* Main.storyboard */,
 				CD0394DC2B9EADC800309682 /* Assets.xcassets */,
 				CD0394DE2B9EADC800309682 /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0394D82B9EADC700309682 /* ViewController.swift in Sources */,
+				CD0394E82B9EAE3700309682 /* CanadaViewController.swift in Sources */,
 				CD0394D42B9EADC700309682 /* AppDelegate.swift in Sources */,
+				CD0394EC2B9EAEBE00309682 /* Lab2ViewController.swift in Sources */,
+				CD0394EE2B9EAEDF00309682 /* Lab3ViewController.swift in Sources */,
+				CD0394EA2B9EAE8C00309682 /* QuadraticViewController.swift in Sources */,
 				CD0394D62B9EADC700309682 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

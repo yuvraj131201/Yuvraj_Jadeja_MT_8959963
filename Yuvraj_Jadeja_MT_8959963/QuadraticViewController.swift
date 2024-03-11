@@ -43,15 +43,15 @@ class QuadraticViewController: UIViewController {
         let valueC = Double(InputC.text!.trimmingCharacters(in: .whitespacesAndNewlines));
         QuadraticAnswer.text = "";
         if(valueA == nil){
-            ErrorMessage.text = "Invalid value for A.";
+            ErrorMessage.text = "The value you entered for A is invalid.";
             return;
         }
         if(valueB == nil){
-            ErrorMessage.text = "Invalid value for B.";
+            ErrorMessage.text = "The value you entered for B is invalid.";
             return;
         }
         if(valueC == nil){
-            ErrorMessage.text = "Invalid value for C.";
+            ErrorMessage.text = "The value you entered for C is invalid.";
             return;
         }
         ErrorMessage.text = "";
@@ -63,7 +63,7 @@ class QuadraticViewController: UIViewController {
                 QuadraticAnswer.text = "Answer : \n\tX = \(String(format: "%.2f", solution.0!)) and  X = \(String(format: "%.2f", solution.1!))";
             }
         }else{
-            ErrorMessage.text = "Discriminant is less than zero.";
+            ErrorMessage.text = "There are no results since the discriminant is less than zero.";
         }
     }
     

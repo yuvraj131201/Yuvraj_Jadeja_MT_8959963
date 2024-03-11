@@ -452,7 +452,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="baseBackgroundColor" red="0.34696169403318911" green="0.29398149461220258" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="V4G-LU-Dnk" kind="show" id="00C-Y8-ZnK"/>
@@ -466,8 +466,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yuvraj Jadeja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4w-XM-TrR">
-                                <rect key="frame" x="130.66666666666669" y="285" width="131.66666666666669" height="26.333333333333314"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <rect key="frame" x="133" y="285" width="127.33333333333331" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -479,17 +479,17 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobby :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQk-1U-gEk">
-                                <rect key="frame" x="55" y="345.33333333333331" width="62" height="21"/>
+                                <rect key="frame" x="55" y="345.33333333333331" width="59.333333333333343" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="dmJ-e7-g3o"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8JP-He-5l8"/>
-                        <color key="backgroundColor" red="0.98431372640000003" green="0.90196079019999997" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.76433082941991215" blue="0.24280968177844597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RbB-i6-lh9" firstAttribute="top" secondItem="hx9-5n-f2A" secondAttribute="bottom" constant="70" id="26Z-bm-4Zr"/>
                             <constraint firstItem="tQk-1U-gEk" firstAttribute="leading" secondItem="8JP-He-5l8" secondAttribute="leading" constant="55" id="2Rh-Vh-vGF"/>
